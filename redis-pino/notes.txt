@@ -1,0 +1,13 @@
+
+//redis is a message broker
+//Caching is the process of storing copies of files in a cache or a temporary storage location so that they can be accessed more quickly
+
+//to run redis on docker in the terminal:
+- docker run --name=redis-devel --publish=6379:6379 --hostname=redis --restart=on-failure --detach redis:latest
+
+//to run redis on docker with a docker-compose.yml file:
+ redis:
+    container_name: redis-container
+    image: "redis:latest"
+    ports:
+        - "6379:6379"

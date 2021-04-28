@@ -1,0 +1,47 @@
+{"level":30,"time":1619006047147,"pid":7728,"hostname":"DESKTOP-4L1OUUN","msg":"Server running on port 3000"}
+{"level":30,"time":1619006071163,"pid":7728,"hostname":"DESKTOP-4L1OUUN","msg":"fruit"}
+{"level":20,"time":1619006071177,"pid":7728,"hostname":"DESKTOP-4L1OUUN","msg":"ECONNREFUSED"}
+{"level":30,"time":1619006144561,"pid":10400,"hostname":"DESKTOP-4L1OUUN","msg":"Server running on port 3000"}
+{"level":30,"time":1619006150842,"pid":10400,"hostname":"DESKTOP-4L1OUUN","msg":"two users: jack, cake"}
+{"level":30,"time":1619006320413,"pid":15912,"hostname":"DESKTOP-4L1OUUN","msg":"Server running on port 3000"}
+[2021-04-21 12:48:53] [32mINFO[39m (5932 on DESKTOP-4L1OUUN): [36mServer running on port 3000[39m
+[2021-04-21 12:49:00] [32mINFO[39m (5932 on DESKTOP-4L1OUUN): [36mfruit[39m
+[2021-04-21 12:49:00] [34mDEBUG[39m (5932 on DESKTOP-4L1OUUN): [36msome error:  [39m
+[36mError: connect ECONNREFUSED 127.0.0.1:3001[39m
+[2021-04-21 12:50:28] [32mINFO[39m: [36mServer running on port 3000[39m
+[32mINFO[39m [2021-04-21 12:53:32] (17176 on DESKTOP-4L1OUUN): [36mServer running on port 3000[39m
+INFO [2021-04-21 12:53:50] (3148 on DESKTOP-4L1OUUN): Server running on port 3000
+INFO [2021-04-21 12:55:28] (3132 on DESKTOP-4L1OUUN): Server running on port 3000
+INFO [2021-04-21 12:55:34] (3132 on DESKTOP-4L1OUUN): fruit
+DEBUG [2021-04-21 12:55:34] (3132 on DESKTOP-4L1OUUN): connect ECONNREFUSED 127.0.0.1:3001
+    Error: connect ECONNREFUSED 127.0.0.1:3001
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+INFO [2021-04-21 12:57:37] (5220 on DESKTOP-4L1OUUN): Server running on port 3000
+INFO [2021-04-21 12:57:42] (5220 on DESKTOP-4L1OUUN): fruit
+ERROR [2021-04-21 12:57:42] (5220 on DESKTOP-4L1OUUN): connect ECONNREFUSED 127.0.0.1:3001
+    Error: connect ECONNREFUSED 127.0.0.1:3001
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+INFO [2021-04-21 13:00:41] (16404 on DESKTOP-4L1OUUN): Server running on port 3000
+INFO [2021-04-21 13:00:47] (16404 on DESKTOP-4L1OUUN): fruit
+ERROR [2021-04-21 13:00:47] (16404 on DESKTOP-4L1OUUN): An error:
+Error: connect ECONNREFUSED 127.0.0.1:3001
+INFO [2021-04-21 13:01:18] (5664 on DESKTOP-4L1OUUN): Server running on port 3000
+INFO [2021-04-21 13:01:21] (5664 on DESKTOP-4L1OUUN): fruit
+ERROR [2021-04-21 13:01:21] (5664 on DESKTOP-4L1OUUN): An error: Error: connect ECONNREFUSED 127.0.0.1:3001
+INFO [2021-04-21 13:05:46] (7444 on DESKTOP-4L1OUUN): Server running on port 3000
+INFO [2021-04-21 13:05:54] (7444 on DESKTOP-4L1OUUN): fruit
+ERROR [2021-04-21 13:05:54] (7444 on DESKTOP-4L1OUUN): An error: Error: connect ECONNREFUSED 127.0.0.1:3001
+INFO [2021-04-21 13:06:19] (7444 on DESKTOP-4L1OUUN): fruit
+ERROR [2021-04-21 13:06:19] (7444 on DESKTOP-4L1OUUN): An error: Error: connect ECONNREFUSED 127.0.0.1:3001
+INFO [2021-04-21 13:07:18] (13352 on DESKTOP-4L1OUUN): Server running on port 3000
+INFO [2021-04-21 13:07:24] (13352 on DESKTOP-4L1OUUN): fruit
+ERROR [2021-04-21 13:07:24] (13352 on DESKTOP-4L1OUUN): connect ECONNREFUSED 127.0.0.1:3001
+    Error: connect ECONNREFUSED 127.0.0.1:3001
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+INFO [2021-04-21 13:08:11] (13984 on DESKTOP-4L1OUUN): Server running on port 3000
+INFO [2021-04-21 13:08:16] (13984 on DESKTOP-4L1OUUN): fruit
+ERROR [2021-04-21 13:08:16] (13984 on DESKTOP-4L1OUUN): connect ECONNREFUSED 127.0.0.1:3001
+    Error: connect ECONNREFUSED 127.0.0.1:3001
+        at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1137:16)
+INFO [2021-04-21 13:10:24] (5788 on DESKTOP-4L1OUUN): Server running on port 3000
+ERROR [2021-04-21 13:10:31] (5788 on DESKTOP-4L1OUUN): ECONNREFUSED
